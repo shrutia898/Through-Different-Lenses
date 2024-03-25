@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(125, 153, 177);
+    font-family: "Nunito", sans-serif;
+}
+.blurb h2{
+    color:rgb(25, 52, 79);
+    font-weight:100;
+    font-size:2rem;
+    
+}
+.blurb p{
+    color:rgb(18, 31, 37);
+    font-size:1.125rem;
+    line-height:2;
+}
+.content{
+    margin-top:100px;
+}
+#mainNavbar{
+    font-size:1.1rem;
+    font-weight:100;
+}
+.button-custom {
+    appearance: none;
+    background-color: #b1b8c0;
+    border:#b1b8c0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    margin:7px;
+
+  }
+  
+  .button-custom:disabled {
+    pointer-events: none;
+  }
+  
+  .button-custom:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-custom:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+#mainNavbar .navbar-brand{
+    color:rgb(50, 48, 48);
+
+}
+#mainNavbar .nav-link{
+    color:rgb(71, 74, 78)
+}
+
+#mainNavbar .nav-link:hover{
+    color:rgb(50, 48, 48);
+}
+#mainNavbar .navbar-toggle{
+    background-color: black;
+}
+#headingGroup span{
+    color:rgb(44, 52, 144)
+}
+#headingGroup h1{
+    font-weight:100;
+    font-size: 2.4rem;
+    padding:0.5px;
+}
+
+
+.navbar.scrolled{
+    background-color: rgb(116, 162, 188);
+}
+
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-size: 2rem;
+       
+    }
+
+
+}
